@@ -1,6 +1,6 @@
 class Post
   def self.post_types
-    [Memo, Task, Link] #do refactoring
+    [Memo, Task, Link]
   end
 
   def self.create(type_index)
@@ -13,11 +13,9 @@ class Post
   end
 
   def read_from_console
-    #todo
   end
 
   def to_strings
-    #todo
   end
 
   def save

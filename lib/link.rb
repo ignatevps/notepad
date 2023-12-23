@@ -1,12 +1,11 @@
 class Link < Post
   def initialize
     super
-
     @url = ''
   end
 
   def read_from_console
-    puts "Enter link url:"
+    puts 'Enter link url:'
     @url = STDIN.gets.chomp
 
     puts "What's the link?"
